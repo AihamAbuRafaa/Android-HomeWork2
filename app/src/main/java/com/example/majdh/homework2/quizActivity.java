@@ -126,20 +126,20 @@ public class quizActivity extends AppCompatActivity{
         q8.setIndexOfCurrentAnswer(3);
         questions.add(q8);
 
-        Question q9 = new Question(9, "How many different countries have won the World Cup prior to 2010?");
-        q9.add_answer("5");
+        Question q9 = new Question(9, "How many games will the winning team have to play?");
         q9.add_answer("6");
         q9.add_answer("7");
         q9.add_answer("8");
-        q9.setIndexOfCurrentAnswer(2);
+        q9.add_answer("9");
+        q9.setIndexOfCurrentAnswer(1);
         questions.add(q9);
 
-        Question q10 = new Question(10, "How many games will the winning team have to play?");
+        Question q10 = new Question(10, "How many different countries have won the World Cup prior to 2010?");
+        q10.add_answer("5");
         q10.add_answer("6");
         q10.add_answer("7");
         q10.add_answer("8");
-        q10.add_answer("9");
-        q10.setIndexOfCurrentAnswer(1);
+        q10.setIndexOfCurrentAnswer(2);
         questions.add(q10);
     }
 

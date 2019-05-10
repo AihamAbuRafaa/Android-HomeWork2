@@ -86,20 +86,20 @@ public class quizActivity extends AppCompatActivity{
         q3.setIndexOfCurrentAnswer(0);
         questions.add(q3);
 
-        Question q4 = new Question(4, "How many teams played in the first World Cup?");
-        q4.add_answer("9");
-        q4.add_answer("13");
-        q4.add_answer("24");
-        q4.add_answer("32");
-        q4.setIndexOfCurrentAnswer(1);
+        Question q4 = new Question(4, "Who scored two goals in the 1998 World Cup final?");
+        q4.add_answer("Ronaldo");
+        q4.add_answer("Michael Owen");
+        q4.add_answer("Davor Šuker");
+        q4.add_answer("Zinedine Zidane");
+        q4.setIndexOfCurrentAnswer(3);
         questions.add(q4);
 
-        Question q5 = new Question(5, "Who scored two goals in the 1998 World Cup final?");
-        q5.add_answer("Ronaldo");
-        q5.add_answer("Michael Owen");
-        q5.add_answer("Davor Šuker");
-        q5.add_answer("Zinedine Zidane");
-        q5.setIndexOfCurrentAnswer(3);
+        Question q5 = new Question(5, "How many teams played in the first World Cup?");
+        q5.add_answer("9");
+        q5.add_answer("13");
+        q5.add_answer("24");
+        q5.add_answer("32");
+        q5.setIndexOfCurrentAnswer(1);
         questions.add(q5);
 
         Question q6 = new Question(6, "Which was the first country to host the World Cup twice?");

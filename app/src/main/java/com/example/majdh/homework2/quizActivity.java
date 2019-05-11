@@ -62,20 +62,21 @@ public class quizActivity extends AppCompatActivity{
     }
 
     private void addQuestions() {
-        Question q1 = new Question(1, "In which year did Maradona score a goal with his hand?");
-        q1.add_answer("1984");
-        q1.add_answer("1985");
-        q1.add_answer("1986");
-        q1.add_answer("1987");
-        q1.setIndexOfCurrentAnswer(2);
-        questions.add(q1);
 
-        Question q2 = new Question(2, "What is the name of the Barcelona football stadium?");
-        q2.add_answer("Santiago Bernabeu");
-        q2.add_answer("Camp Nou");
-        q2.add_answer("San Siro");
-        q2.add_answer("Maracanã");
-        q2.setIndexOfCurrentAnswer(1);
+        Question q1 = new Question(1, "What is the name of the Barcelona football stadium?");
+        q1.add_answer("Santiago Bernabeu");
+        q1.add_answer("Camp Nou");
+        q1.add_answer("San Siro");
+        q1.add_answer("Maracanã");
+        q1.setIndexOfCurrentAnswer(1);
+        questions.add(q1);
+		
+		Question q2 = new Question(2, "In which year did Maradona score a goal with his hand?");
+        q2.add_answer("1984");
+        q2.add_answer("1985");
+        q2.add_answer("1986");
+        q2.add_answer("1987");
+        q2.setIndexOfCurrentAnswer(2);
         questions.add(q2);
 
         Question q3 = new Question(3, "What was the Olympic city of 1992?");
